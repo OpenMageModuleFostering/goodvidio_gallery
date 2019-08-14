@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <package>
     <name>Goodvidio_Gallery</name>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <stability>stable</stability>
     <license uri="https://opensource.org/licenses/MIT">MITL</license>
     <channel>community</channel>
     <extends/>
     <summary>Increase sales with the most relevant product videos brought automatically from YouTube to your product pages.</summary>
-    <description>Goodvidio gives you an easy and fast way to  add the most relevant product videos from YouTube to your product pages. &#xD;
+    <description>Goodvidio gives you an easy and fast way to  add the most relevant product videos from YouTube to your product pages.&#xD;
 &#xD;
-Grow sales and increase conversion rate +74% with the best review, unboxing, and how-to product videos made by brands, experts and consumers on YouTube. Engage shoppers with product videos that positively impact purchase intent and improve customer experience. Increase session duration by +340% and pages per session by +127%. &#xD;
+Grow sales and increase conversion rate +74% with the best review, unboxing, and how-to product videos made by brands, experts and consumers on YouTube. Engage shoppers with product videos that positively impact purchase intent and improve customer experience. Increase session duration by +340% and pages per session by +127%.&#xD;
 &#xD;
-You don&#x2019;t need to spend hours searching for good product videos on social media that you can add to your online store. With Goodvidio, you can automatically discover, filter, curate and publish videos on your product pages, while also get actionable data on shopper behavior, engagement and conversion that you can use to maximize results. Get beautiful product video galleries that look good on your product pages on any device (mobile, tablet, laptop&#x2026;). &#xD;
-</description>
-    <notes>* 0.1.0 - Initial Release</notes>
+You don't need to spend hours searching for good product videos on social media that you can add to your online store. With Goodvidio, you can automatically discover, filter, curate and publish videos on your product pages, while also get actionable data on shopper behavior, engagement and conversion that you can use to maximize results. Get beautiful product video galleries that look good on your product pages on any device (mobile, tablet, laptop).</description>
+    <notes>* 1.0.0 - Stable Release&#xD;
+* 0.1.0 - Initial Release</notes>
     <authors><author><name>Goodvidio</name><user>goodvidio</user><email>admin@goodvid.io</email></author></authors>
-    <date>2016-05-18</date>
-    <time>13:41:02</time>
-    <contents><target name="magecommunity"><dir><dir name="Goodvidio"><dir name="Gallery"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Info.php" hash="396f8e7fb5476b005f2d35b9674d2f0e"/></dir></dir></dir><dir name="Checkout"><file name="Success.php" hash="05896b3da0a10cbc1bb9d6fbbd4765ab"/><file name="Track.php" hash="39a280dc6ff27d1be2c1b0c3f112480d"/></dir><file name="Gallery.php" hash="071f1461edb328459f0dbbbfc1a59ab4"/><file name="Script.php" hash="9924743a2632d67c20560c466e453479"/></dir><dir name="Helper"><file name="Data.php" hash="57c799a50f7bb2662270c09342e87291"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Selectortype.php" hash="aac9be6e09004f138f2c322a630bcec6"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="0e55af14f862fcf9850d578ff6b9c312"/><file name="config.xml" hash="1c34c5fc075992bcbf1a0452707c0724"/><file name="system.xml" hash="b65ca11b7c818835bb478b930a99cb5c"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Goodvidio_Gallery.xml" hash="ff385f0c5832a930a46efc151f24e1a7"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="goodvidio_gallery.xml" hash="09ba43b9b48436bb855fb434738e3f1b"/></dir><dir name="template"><dir name="goodvidiogallery"><dir name="checkout"><file name="success.phtml" hash="ab701488a7732a0b7fd75a2abefd5687"/><file name="track.phtml" hash="f5317882ac345b90cde615a5968e5421"/></dir><file name="gallery.phtml" hash="8c3dd47971bdb6957e629e3fe7881d6e"/><file name="script.phtml" hash="e0efe700fe8bd6bc54f792ce303a0d2b"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <date>2016-10-10</date>
+    <time>13:07:54</time>
+    <contents><target name="magecommunity"><dir><dir name="Goodvidio"><dir name="Gallery"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Info.php" hash="396f8e7fb5476b005f2d35b9674d2f0e"/></dir></dir></dir><dir name="Checkout"><file name="Success.php" hash="05896b3da0a10cbc1bb9d6fbbd4765ab"/><file name="Track.php" hash="39a280dc6ff27d1be2c1b0c3f112480d"/></dir><file name="Script.php" hash="9924743a2632d67c20560c466e453479"/></dir><dir name="Helper"><file name="Data.php" hash="57c799a50f7bb2662270c09342e87291"/></dir><dir name="etc"><file name="adminhtml.xml" hash="0e55af14f862fcf9850d578ff6b9c312"/><file name="config.xml" hash="29aa606d8742ca0d85cf03318dda8291"/><file name="system.xml" hash="aeefa9e5f5173701ae4f12f476451a11"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Goodvidio_Gallery.xml" hash="c2a80fabaf8673f9a70dd262b3997376"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="goodvidio_gallery.xml" hash="91deb495f303ff013d7afcee5638c61b"/></dir><dir name="template"><dir name="goodvidiogallery"><dir name="checkout"><file name="success.phtml" hash="ab701488a7732a0b7fd75a2abefd5687"/><file name="track.phtml" hash="f5317882ac345b90cde615a5968e5421"/></dir><file name="script.phtml" hash="e0efe700fe8bd6bc54f792ce303a0d2b"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.4.0</min><max>5.6.21</max></php></required></dependencies>
+    <dependencies><required><php><min>5.4.0</min><max>7.0.10</max></php></required></dependencies>
 </package>

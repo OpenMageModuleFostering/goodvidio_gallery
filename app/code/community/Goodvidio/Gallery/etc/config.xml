@@ -2,7 +2,7 @@
 <config>
   <modules>
     <Goodvidio_Gallery>
-      <version>0.1.0</version>
+      <version>1.0.0</version>
     </Goodvidio_Gallery>
   </modules>
   <frontend>

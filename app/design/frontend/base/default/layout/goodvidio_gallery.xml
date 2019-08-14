@@ -4,11 +4,6 @@
   <default>
     <reference name="footer">
       <block
-        type="goodvidiogallery/gallery"
-        name="goodvidiogallery_gallery"
-        template="goodvidiogallery/gallery.phtml"
-        before="goodvidiogallery_script"/>
-      <block
         type="goodvidiogallery/script"
         name="goodvidiogallery_script"
         template="goodvidiogallery/script.phtml"/>
