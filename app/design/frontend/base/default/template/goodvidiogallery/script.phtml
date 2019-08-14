@@ -1,0 +1,6 @@
+<?php if ($this->isEnabled()): ?>
+	<script
+		id="goodvidio-init"
+		<?php if ($this->getShopDomain()): ?>data-domain="<?php echo $this->getShopDomain()?>"<?php endif; ?>
+		src="<?php echo $this->getEnvironmentVal()?>"></script>
+<?php endif; ?>

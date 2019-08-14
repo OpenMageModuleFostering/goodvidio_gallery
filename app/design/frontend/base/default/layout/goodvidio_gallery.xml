@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+  <default>
+    <reference name="footer">
+      <block
+        type="goodvidiogallery/gallery"
+        name="goodvidiogallery_gallery"
+        template="goodvidiogallery/gallery.phtml"
+        before="goodvidiogallery_script"/>
+      <block
+        type="goodvidiogallery/script"
+        name="goodvidiogallery_script"
+        template="goodvidiogallery/script.phtml"/>
+    </reference>
+  </default>
+
+  <checkout_onepage_index>
+    <reference name="footer">
+      <block
+        type="goodvidiogallery/checkout_track"
+        name="goodvidiogallery_checkout_track"
+        template="goodvidiogallery/checkout/track.phtml"
+        after="goodvidiogallery_script"/>
+    </reference>
+  </checkout_onepage_index>
+
+  <checkout_onepage_success>
+    <reference name="footer">
+      <block
+        type="goodvidiogallery/checkout_success"
+        name="goodvidiogallery_checkout_success"
+        template="goodvidiogallery/checkout/success.phtml"
+        after="goodvidiogallery_script"/>
+    </reference>
+  </checkout_onepage_success>
+
+</layout>

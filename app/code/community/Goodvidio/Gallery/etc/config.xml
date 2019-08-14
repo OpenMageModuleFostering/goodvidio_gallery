@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Goodvidio_Gallery>
+      <version>0.1.0</version>
+    </Goodvidio_Gallery>
+  </modules>
+  <frontend>
+    <layout>
+      <updates>
+        <goodvidiogallery>
+          <file>goodvidio_gallery.xml</file>
+        </goodvidiogallery>
+      </updates>
+    </layout>
+  </frontend>
+  <global>
+    <models>
+      <goodvidiogallery>
+        <class>Goodvidio_Gallery_Model</class>
+      </goodvidiogallery>
+    </models>
+    <helpers>
+      <goodvidiogallery>
+        <class>Goodvidio_Gallery_Helper</class>
+      </goodvidiogallery>
+    </helpers>
+    <blocks>
+      <goodvidiogallery>
+        <class>Goodvidio_Gallery_Block</class>
+      </goodvidiogallery>
+    </blocks>
+  </global>
+  <default>
+    <integration>
+      <general>
+        <enabled>0</enabled>
+      </general>
+    </integration>
+    <integration>
+      <ecommercetracking>
+        <enabled>1</enabled>
+      </ecommercetracking>
+    </integration>
+  </default>
+  <adminhtml>
+    <acl>
+      <resources>
+        <admin>
+          <children>
+            <goodvidiogallery>
+              <title>Goodvidio</title>
+              <children>
+                <dashboard translate="title" module="goodvidiogallery">
+                  <title>Goodvidio Dashboard Menu</title>
+                </dashboard>
+                <configuration translate="title" module="goodvidiogallery">
+                  <title>Goodvidio Configuration Menu</title>
+                </configuration>
+              </children>
+            </goodvidiogallery>
+            <system>
+              <children>
+                <config>
+                  <children>
+                    <integration>
+                      <title>Goodvidio Integration Section</title>
+                    </integration>
+                    <support>
+                      <title>Goodvidio Support Section</title>
+                    </support>
+                  </children>
+                </config>
+              </children>
+            </system>
+          </children>
+        </admin>
+      </resources>
+    </acl>
+  </adminhtml>
+</config>

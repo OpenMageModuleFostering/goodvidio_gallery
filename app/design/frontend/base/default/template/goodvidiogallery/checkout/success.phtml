@@ -1,0 +1,10 @@
+<?php if ($this->isEnabled()): ?>
+	<script>
+		if('undefined'==typeof _gv){var n='_gv',w=window;w.GoodvidioTrackingObject=n,n in w||(w[n]=function(){w[n].q.push(arguments)},w[n].q=[]),w[n].l=(new Date).getTime()}
+		var _gv_purchase = {
+			id: '<?php echo $this->getOrder()->getIncrementId(); ?>',
+			transactionData: <?php echo json_encode($this->getItems())?>
+		};
+		_gv('send','purchase',_gv_purchase);
+	</script>
+<?php endif; ?>
