@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Goodvidio_Gallery",
+    "name": "OpenMageModuleFostering\/Goodvidio_Gallery",
     "type": "magento-module",
     "license": "MITL",
     "homepage": "",
     "description": "Increase sales with the most relevant product videos brought automatically from YouTube to your product pages.",
     "authors": [
-    {
-        "name": "Goodvidio",
-        "email": "admin@goodvid.io"
-    }
-],
+        {
+            "name": "Goodvidio",
+            "email": "admin@goodvid.io"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
